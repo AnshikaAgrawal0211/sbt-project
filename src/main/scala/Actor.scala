@@ -11,7 +11,7 @@ object Main{
 def main(args:Array[String]){
 val actorSystem=ActorSystem("ActorSystem")
 val actor = actorSystem.actorOf(Props[Hello],"Hello")
-actor ! "Hello"
+actor ! "Hello "
 actor ! 100
 }
 }
